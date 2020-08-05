@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Try It Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/style.css"
+    />
+    
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    
+    <script defer src="./assets/app.js"></script>
+  </head>
+  <body>
+      <nav>
+          <h2>Try It Editor</h2>
+      </nav>
+
+      <div class="jumbotron">
+          <div class="row">
+              <div class="col-md-6 input">
+                  Type Code
+                  <hr>
+                  <div class="code-content" id="code-input" contenteditable="true" autofocus>
+
+                  </div>
+              </div>
+              <div class="col-md-6 output">
+                  Output
+                  <hr>
+                  <div class="code-content" id="code-output" contenteditable="true">
+                  </div>    
+            </div>
+          </div>
+      </div>
+
+
+  </body>
+</html>

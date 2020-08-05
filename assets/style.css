@@ -1,0 +1,33 @@
+
+nav{
+    height: 120px;
+    width:100%;
+    background: #047517a1;
+    color:white;
+    /* clip-path: polygon(50% 0px, 44.73% 15.00%, 0.51% 153.33%, 5px 1.67%); */
+
+}
+
+nav h2{
+    padding:30px;
+}
+
+.input{
+    border:1px solid black;
+   
+}
+
+.output{
+    border:1px solid black;
+    
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+
+.code-content{
+    height:500px;
+    overflow:auto;
+}
